@@ -6,15 +6,15 @@
 
 let age = 10;
 // gauti age is vartotojo
-// age = prompt('kiek metu?');
+age = prompt('kiek metu?');
 // consoleje prideti ivesta amziu
 
 // conditionals
 if (age > 18) {
   // jei skliausteliuose TRUE vygdom sita
-  console.log('Jus esate pilnametis zmogus, sveikinimai');
+  console.log(`Jums yra ${age}. Jus esate pilnametis zmogus, sveikinimai`);
 } else {
-  console.log('Jus esate nepilnametis zmogus, sveikinimai');
+  console.log(`Jums yra ${age}. Jus esate nepilnametis zmogus, sveikinimai`);
 }
 console.log('po visko');
 
